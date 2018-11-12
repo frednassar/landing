@@ -1,0 +1,188 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Helvetica", "Arial", "sans-serif";
+}
+
+p {font-size: 15px; line-height: 25px; margin-bottom: 30px;} 
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 2px;
+}
+
+h2 {
+   font-size: 18px;
+   color: #000;
+   text-transform: uppercase;
+}
+
+h3 {
+   font-size: 16px;
+   color: #000;
+   text-transform: uppercase;
+}
+
+a {color:#1678e4; text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+ul {
+    list-style: none;
+    float: right; 
+    display: inline;
+}
+
+ul li {
+    float: left;
+    padding: 0px 10px;
+}
+ul li a {
+    color: #ddd;
+    font-size: 15px;
+    text-decoration: none;
+} 
+
+.navbar {
+    width: 100%;
+    height: 50px;
+}
+
+.hero-banner {    
+    background: url("../imgs/bg.jpeg") no-repeat center top;
+    height: 470px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding-top: 25px; 
+}
+
+.hero-banner p {color: white; text-align: center; margin-top: 25px;}
+
+.logo {width: 150px;}
+
+.centrar {
+    width: 900px;
+    margin: 0px auto;
+    position: relative;
+} 
+
+.hero-text {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+.botones {text-align: center;  margin-top: 50px;}
+
+.content-area {
+    width:100%;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+    background: url("../imgs/people.png") no-repeat center bottom;
+    background-size: 25%;
+}
+
+.content-area2 {
+    width:100%;
+    height: 250px;
+    text-align: center;
+    background-color: #f7f7f7;
+    background-size: 25%;
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    padding-top:50px;
+}
+
+.content-area3 {
+    width:100%;
+    height: 220px;
+    margin-top: 50px;
+}
+
+.columna-contacto {
+    width: 35%;
+    float: left;
+    display: inline;
+    height: 220px;
+}
+
+.columna-suscribete {
+    width: 65%;
+    float: left;
+    height: 220px;
+    display: inline;
+}
+
+.campo-email {
+    height: 30px; 
+    padding: 3px 10px;
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    width: 35%;
+    display: inline-block;
+    float: left;
+    display: inline;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #000;
+    font-size: 16px; 
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.footer p {text-transform: uppercase;} 
+
+/*-- Botones --*/
+.boton-azul {
+    background-color: #1678e4;
+    border: 1px solid #1464bd;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+} 
+.boton-azul:hover {text-decoration: none; opacity: 0.8;} 
+
+.boton-gris {
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: left;
+    display: inline;
+    cursor: pointer;
+}
+
+.boton-verde {
+    background-color: #12d64e;
+    border: 1px solid #12bb46;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 10px;
+} 
+.boton-verde:hover {text-decoration: none; opacity: 0.8;} 
